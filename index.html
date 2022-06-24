@@ -1,0 +1,34 @@
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<script src="scripts.js">
+    updateIncompleteTaskDiv();
+</script>
+</head>
+<body>
+    <h1 id="title">To Do App</h1>
+
+    <label for="todo-input">Enter To-do Task:</label>
+    <input id="todo-input" type="text" placeholder="Todo here" size="200">
+    <button id="todo-add" onclick="updateIncompleteTaskList()">Add</button>
+
+    <br/>
+    <br/>
+    
+    <table id="todo-table-header">
+        <tr>
+            <th id="todo-table-header-incomplete" class="todo-table-header-option" onclick="incomplete()">Incomplete</th>
+            <th id="todo-table-header-completed" class="todo-table-header-option" onclick="completed()">Completed</th>
+        </tr>
+    </table>
+
+    <div id="incomplete-task-list">
+        
+    </div>
+
+    <div id="completed-task-list">
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+    color: white;
+    background-color:rgb(49, 49, 49)
+}
+
+#todo-table-header {
+    margin: auto;
+}
+
+.todo-table-header-option {
+    margin: auto;
+}
+
+#todo-table-header-completed {
+    margin: auto;
+    padding: 50px;
+    border: 3px solid #73AD21;
+    background-color: rgb(0, 141, 0);
+    transition-duration: 0.4s;
+}
+
+#todo-table-header-completed:hover {
+    background-color: rgb(94, 185, 94);
+    color: white;
+}
+
+#todo-table-header-completed:active {
+    background-color: rgb(0, 105, 0);
+    transition-duration: 0s;
+}
+
+#todo-table-header-incomplete {
+    margin: auto;
+    padding: 50px;
+    border: 3px solid #00e5ff;
+    border-width: 10px;
+    background-color: rgb(204, 0, 0);
+    transition-duration: 0.4s;
+}
+
+#todo-table-header-incomplete:hover {
+    background-color: rgb(255, 135, 135);
+    color: white;
+}
+
+#todo-table-header-incomplete:active {
+    background-color: rgb(120, 0, 0);
+    transition-duration: 0s;
+}
+
+.incomplete-task {
+    border: 3px solid rgb(204, 0, 0);
+    padding: 10px;
+}
+
+.completed-task {
+    border: 3px solid #73AD21;
+    padding: 10px; 
+}
